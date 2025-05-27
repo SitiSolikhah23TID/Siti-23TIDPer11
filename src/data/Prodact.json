@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Saute Squid",
+    "price": 1.0,
+    "image": "https://i.pinimg.com/736x/3c/53/a8/3c53a80a78433492ab5f22c5ecfad5cc.jpg",
+    "rating": 5,
+    "isSale": true
+  },
+  {
+    "id": 2,
+    "name": "Curry Fish",
+    "price": 9.0,
+    "image": "https://i.pinimg.com/736x/ae/ba/a2/aebaa202010d2afce197481287ed6f22.jpg",
+    "rating": 5,
+    "isSale": false
+  },
+  {
+    "id": 3,
+    "name": "Mercon Meatballs",
+    "price": 3.0,
+    "image": "https://i.pinimg.com/736x/16/e6/d2/16e6d2a8289920918c160009322844d0.jpg",
+    "rating": 5,
+    "isSale": false
+  },
+  {
+    "id": 4,
+    "name": "Fhicken Fried Rice",
+    "price": 1.0,
+    "image": "https://i.pinimg.com/736x/c8/bd/13/c8bd13b42d38520e0e892d8f14e0409a.jpg",
+    "rating": 5,
+    "isSale": false
+  },
+  {
+    "id": 5,
+    "name": "Sup Daging",
+    "price": 2.0,
+    "image": "https://i.pinimg.com/736x/d4/ce/6b/d4ce6b05e70336574af407e738fcc67f.jpg",
+    "rating": 5,
+    "isSale": false
+  },
+  {
+    "id": 6,
+    "name": "Opor Chicken",
+    "price": 2.0,
+    "image": "https://i.pinimg.com/736x/c5/95/13/c59513a5ea2ec6fbb40d3a46c8b43718.jpg",
+    "rating": 5,
+    "isSale": true
+  }
+]
