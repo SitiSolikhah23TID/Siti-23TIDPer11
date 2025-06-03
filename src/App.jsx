@@ -36,6 +36,7 @@ const Register = React.lazy(() => import("./pages/auth/Register"))
 const Forgot = React.lazy(() => import("./pages/auth/Forgot"))
 const MainLayout = React.lazy(() => import("./layouts/MainLayout"))
 const AuthLayout = React.lazy(() => import("./layouts/AuthLayout"))
+const Notes = React.lazy(() => import("./pages/Notes"))
 
 const GuestLayout = React.lazy(() => import("./layouts/GuestLayout"))
 const HalamanGuest = React.lazy(() => import("./pages/HalamanGuest"));
@@ -60,6 +61,7 @@ function App() {
         <Route path="/addCustomers" element={<AddCustomers />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products/:id" element={<ProductDetail />} /> 
+        <Route path="/notes" element={<Notes />} /> 
       </Route>
       <Route path="/Guest" element={<Guest />} />
       <Route path="*" element={<NotFound />} />

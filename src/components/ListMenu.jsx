@@ -1,3 +1,4 @@
+import { FaStickyNote } from "react-icons/fa"; 
 import { AiOutlineHome } from "react-icons/ai"; 
 import { AiOutlineShoppingCart } from "react-icons/ai"; 
 import { AiOutlineUserAdd } from "react-icons/ai"; 
@@ -50,13 +51,6 @@ export default function ListMenu() {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink id="menu-5" to="/error401"
-                            className={menuClass}>
-                            <AiOutlineUserAdd className="mr-4 text-xl"/>
-                            Error 401
-                        </NavLink>
-                    </li>
-                    <li>
                         <NavLink id="menu-6" to="/Guest"
                             className={menuClass}>
                             <AiOutlineUserAdd className="mr-4 text-xl"/>
@@ -68,6 +62,16 @@ export default function ListMenu() {
                             className={menuClass}>
                             <AiOutlineUserAdd className="mr-4 text-xl"/>
                             User
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                                id="menu-4"
+                                to="/notes"
+                                className={menuClass}
+                            >
+                                <FaStickyNote className="mr-4 text-xl" />
+                                Notes
                         </NavLink>
                     </li>
                     <li>
